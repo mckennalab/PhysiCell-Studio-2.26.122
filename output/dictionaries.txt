@@ -1,0 +1,79 @@
+Signals: 
+=======
+0 : oxygen
+1 : debris
+2 : intracellular oxygen
+3 : intracellular debris
+4 : oxygen gradient
+5 : debris gradient
+6 : pressure
+7 : volume
+8 : contact with cancer
+9 : contact with macrophage
+10 : contact with live cell
+11 : contact with dead cell
+12 : contact with basement membrane
+13 : damage
+14 : dead
+15 : total attack time
+16 : time
+17 : custom:pO2_proliferation_saturation
+18 : custom:pO2_proliferation_threshold
+19 : custom:O2_necrosis_threshold
+20 : custom:pO2_necrosis_saturation
+21 : custom:max_necrosis_rate
+22 : apoptotic
+23 : necrotic
+
+Behaviors: 
+=========
+0 : oxygen secretion
+1 : debris secretion
+2 : oxygen secretion target
+3 : debris secretion target
+4 : oxygen uptake
+5 : debris uptake
+6 : oxygen export
+7 : debris export
+8 : cycle entry
+9 : exit from cycle phase 1
+10 : exit from cycle phase 2
+11 : exit from cycle phase 3
+12 : exit from cycle phase 4
+13 : exit from cycle phase 5
+14 : apoptosis
+15 : necrosis
+16 : migration speed
+17 : migration bias
+18 : migration persistence time
+19 : chemotactic response to oxygen
+20 : chemotactic response to debris
+21 : cell-cell adhesion
+22 : cell-cell adhesion elastic constant
+23 : adhesive affinity to cancer
+24 : adhesive affinity to macrophage
+25 : relative maximum adhesion distance
+26 : cell-cell repulsion
+27 : cell-BM adhesion
+28 : cell-BM repulsion
+29 : phagocytose dead cell
+30 : phagocytose cancer
+31 : phagocytose macrophage
+32 : attack cancer
+33 : attack macrophage
+34 : fuse to cancer
+35 : fuse to macrophage
+36 : transform to cancer
+37 : transform to macrophage
+38 : custom:pO2_proliferation_saturation
+39 : custom:pO2_proliferation_threshold
+40 : custom:O2_necrosis_threshold
+41 : custom:pO2_necrosis_saturation
+42 : custom:max_necrosis_rate
+43 : is_movable
+44 : immunogenicity to cancer
+45 : immunogenicity to macrophage
+46 : cell attachment rate
+47 : cell detachment rate
+48 : maximum number of cell attachments
+
